@@ -1,5 +1,19 @@
+/*'Ubuntu'-regular - latin */
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ubuntu-v14-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+         url('../fonts/ubuntu-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/ubuntu-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/ubuntu-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/ubuntu-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/ubuntu-v14-latin-regular.svg#Ubuntu') format('svg'); /* Legacy iOS */
+  }
+
 body {
-    font-family: Ubuntu, "times new roman", times, roman, serif;
+    font-family:'Ubuntu', "times new roman", times, roman, serif;
     margin: 0;
     background-color: #E9ECF2;
     color: #404356;
@@ -174,7 +188,7 @@ body {
 }
 
 #pricecontainer p:first-of-type{
-    font-family: Ubuntu, "times new roman", times, roman, serif;
+    font-family:'Ubuntu', "times new roman", times, roman, serif;
     padding-top: 10px;
 }
 #pricecontainer div{
@@ -197,7 +211,7 @@ body {
 #pricechoice p:nth-of-type(3) {
     background-color: #477AFB;
     color: white;
-    font-family: Ubuntu, "times new roman", times, roman, serif;
+    font-family:'Ubuntu', "times new roman", times, roman, serif;
     width: 160px;
     margin-left: 120px;
     border: 1px solid black;
